@@ -1,0 +1,6 @@
+left=set("qwertasdfzxcvb")
+right=set("yuiophjklmn")
+word=set(input("kelime girin :"))
+leftcheck=bool(word.intersection(left))
+rightcheck=bool(word.intersection(right))
+print(leftcheck and rightcheck)
